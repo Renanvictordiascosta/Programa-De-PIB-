@@ -22,7 +22,7 @@ def mostrar_grafico ():
 
 # leitura da planilha em excel e sua transformação numa array com numpy
 # para chamar a planilha no seu código, edite o caminho percorrido na sua máquina
-dados_do_pib = pd.read_excel("/Users/renanvictordiascosta/Desktop/PIB.xlsx")
+dados_do_pib = pd.read_excel("PIB.xlsx")
 lista_do_pib = np.array(dados_do_pib)
 # criação das funções que receberão os valores da array
 lista_pib_anos = []
